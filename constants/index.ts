@@ -15,6 +15,7 @@ export const manufacturers = [
   "Fiat",
   "Ford",
   "GMC",
+  "Golf",
   "Honda",
   "Hyundai",
   "Infiniti",
