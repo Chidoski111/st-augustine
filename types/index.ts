@@ -39,13 +39,15 @@ export interface CarCardProps {
 
 export interface CustomButtonProps {
   isDisabled?: boolean;
-  btnType?: "button" | "submit";
+  btnType?: "button" | "submit" | "whatsapp"; // Added "whatsapp" as a valid value
   containerStyles?: string;
   textStyles?: string;
   title: string;
   rightIcon?: string;
   handleClick?: MouseEventHandler<HTMLButtonElement>;
+  whatsappLink?: string; // Added whatsappLink as a prop
 }
+
 
 export interface OptionProps {
   title: string;

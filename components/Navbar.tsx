@@ -20,6 +20,7 @@ const NavBar = () => (
         title='Contact Us'
         btnType='button'
         containerStyles='text-red-500 rounded-full bg-blue min-w-[130px]'
+        
       />
     </nav>
   </header>
