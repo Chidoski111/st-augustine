@@ -6,7 +6,7 @@ import { CustomButtonProps } from "@types";
 
 const Button = ({ isDisabled, containerStyles, textStyles, title, rightIcon, whatsappLink }: CustomButtonProps) => {
   const handleWhatsAppClick = () => {
-    window.location.href = whatsappLink || "https://wa.me/+234803320742"; // Default link or use provided link
+    window.location.href = whatsappLink || "https://wa.me/08033230742"; // Default link or use provided link
   };
 
   return (
