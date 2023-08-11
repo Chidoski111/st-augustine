@@ -19,7 +19,7 @@ const NavBar = () => (
       <CustomButton
         title='Contact Us'
         btnType='button'
-        containerStyles='text-primary-white rounded-full bg-blue min-w-[130px]'
+        containerStyles='text-white rounded-full bg-blue min-w-[130px]'
       />
     </nav>
   </header>
